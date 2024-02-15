@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1631649312 source:c:\tp\cmocka\ratp\ratp\ratp.c
+
+1631691137 source:c:\tp\cmocka\ratp\ratp\main.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	"cmocka.h"
+	<string.h>
+	"ratp.h"
+
+1630658017 c:\tp\cmocka\ratp\ratp\cmocka.h
+
+1631649603 c:\tp\cmocka\ratp\ratp\ratp.h
+
+1631649681 source:c:\tp\cmocka\ratp\ratp\cmocka.c
+	"config.h"
+	<malloc.h>
+	<inttypes.h>
+	<signal.h>
+	<strings.h>
+	<stdint.h>
+	<setjmp.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<time.h>
+	<float.h>
+	"cmocka_platform.h"
+	"cmocka.h"
+	"cmocka_private.h"
+
+1630658017 c:\tp\cmocka\ratp\ratp\cmocka_private.h
+	"config.h"
+	<stdint.h>
+	<windows.h>
+	<stdio.h>
+
