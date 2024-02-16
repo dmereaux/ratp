@@ -17,9 +17,9 @@ exec : all
 	$(CXX) $(OPTION)  -c  $< -o $@ $(INCS)
 	
 clean:
-	rm $(OBJS) 
+	rm -f $(OBJS) 
 
 
 mrproper: clean
-	rm testAll
-	rm result.xml
+	rm -f testAll
+	rm -f result.xml
