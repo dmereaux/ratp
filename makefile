@@ -21,4 +21,4 @@ clean:
 	rm -f $(OBJS)
 
 mrproper: clean
-	rm -f $(EXEC) result.xml ratp.gcda ratp.gcno cmocka.gcda cmocka.gcno
+	rm -f $(EXEC) result.xml ratp.gcda ratp.gcno cmocka.gcda cmocka.gcno main.gcda main.gcno
