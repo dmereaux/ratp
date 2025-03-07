@@ -34,11 +34,20 @@ static void Test_pas_tourist_et_adulte(void **state) {
     assert_float_equal(1.5,prix,0.001);
 
 }
+static void Test_pas_tourist_et_enfant(void **state) {
+    (void) state; 
+    float prix;
+    will_return(recupAge,12);
+    prix= computePrice(10.0,0);
+    assert_float_equal(1.5,prix,0.001);
+
+}
 
 
 int main(void) {
     const struct CMUnitTest tests[] = {
         cmocka_unit_test_setup(Test_pas_tourist_et_adulte,setup),
+        cmocka_unit_test_setup(Test_pas_tourist_et_enfant,setup),
         
     };
     cmocka_set_message_output(CM_OUTPUT_XML);
