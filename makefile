@@ -12,14 +12,13 @@ all: $(OBJS)
 
 	
 exec : all
-	testAll.exe
+	./testAll
+
 %.o: %.c
 	$(CXX) $(OPTION)  -c  $< -o $@ $(INCS)
 	
 clean:
-	rm -f $(OBJS) 
-
+	rm -f $(OBJS)
 
 mrproper: clean
-	rm -f testAll
-	rm -f result.xml
+	rm -f $(EXEC) result.xml ratp.gcda ratp.gcno cmocka.gcda cmocka.gcno
