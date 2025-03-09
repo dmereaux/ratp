@@ -18,7 +18,7 @@ exec : all
 	$(CXX) $(OPTION)  -c  $< -o $@ $(INCS)
 	
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) testAll
 
 mrproper: clean
 	rm -f $(EXEC) result.xml ratp.gcda ratp.gcno cmocka.gcda cmocka.gcno main.gcda main.gcno
